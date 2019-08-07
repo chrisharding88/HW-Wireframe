@@ -3,7 +3,7 @@ body{
     color: #777;
     background: #777;
     width: 960px;
-    font-size:'18px';
+    font-size: 18px;
     margin: 0 auto;
 }
 
@@ -14,15 +14,29 @@ header, nav, section, aside, footer{
 header, nav,footer {
     text-align: center;
     border-style: solid;
-    width: 1000px;
     height: 60px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 20px;
+    display: block;
 }
+
+#section, #article{
+    text-align: center;
+}
+
+#section{
+    margin-top: 28px;
+}
+
+#article{
+    color: #ebebeb;
+}
+
 
 article{
     background: #777;
-    padding: 5px;
+    padding: 25px;
+    margin-top: 50px;
 }
 
 h2{
@@ -50,19 +64,20 @@ aside{
     border-style:solid;
     overflow: visible;
     width: 400px;
-    height: 300px;
+    height: 343px;
     padding: 8px;
 }
 
 h1, p{
     text-align: center;
     background: #ebebeb;
+    color: #777;
     padding: 15px;
     
 }
 
 
-footer:{
+footer {
     clear: both;
 }
 
